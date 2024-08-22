@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+
+body{
+    background-image: url(./imagenes/pexels-francesco-ungaro-673648.jpg);
+    background-size: 100%;
+    width: 100vh;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+h1{
+
+    font-size: 4rem;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400
+
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    background-color: rgb(11, 88, 121);
+    top: 90%;
+    bottom: 0%;
+    align-items: center;
+    gap: 30px;
+} 
+
+footer p{
+    color: aliceblue;
+    font-family: "inter";
+    font-size: 24px;
+}
+    
+.contactos{
+    display: flex;
+    gap: 20px;
+    vertical-align: baseline;
+
+}
+.link_1{
+    position: relative;
+    top: 20%;
+}
+.link_2{
+    height: -50%;
+}
+.link_3{
+    position: relative;
+    top:20%;
+}
+
+@media(max-width: 800px){
+    body{
+        background-size: 150%;
+
+        width: auto;
+        height: auto;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+
+    h1{
+
+        font-size: 2rem;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400
+    
+    }
+            
+    footer{
+    
+        top: 80%;
+        
+        gap: 20px;
+
+    } 
+    footer p{
+        padding-left: 10px;
+        color: aliceblue;
+        font-family: "inter";
+        font-size: 1rem;
+    }
+        
+    .contactos{
+        display: flex;
+        gap: 10px;
+        vertical-align: baseline;
+    
+    }
+
+    
+    
+    
+
+}
+
+@media(max-width: 300px){
+    body{
+        background-size: 150%;
+
+        width: auto;
+        height: auto;
+    }
+
+    main{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 200px;
+        margin-left: 20px;
+    }
+    
+
+    h1{
+
+        font-size: 1.5rem;
+        font-family: "Matemasie", sans-serif;
+        font-weight: 400
+    
+    }
+            
+    footer{
+        display: flex;
+        flex-direction: column;
+        top: 80%;
+        
+        gap: 5px;
+
+    } 
+    
+    footer p{
+        padding-left: 20px;
+        color: aliceblue;
+        font-family: "inter";
+        font-size: 1rem;
+
+    }
+        
+    .contactos{
+        display: flex;
+        gap: 10px;
+        vertical-align: baseline;
+        size: 70%;
+    
+    }
+
+    
+    
+    
+
+}
